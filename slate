@@ -9,20 +9,24 @@ config checkDefaultsOnLoad true
 alias fullscreen move screenOriginX;screenOriginY screenSizeX;screenSizeY
 bind esc:alt ${fullscreen}
 
-alias vsplit2-1 move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
-alias vsplit2-2 move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
-bind f1:alt chain ${vsplit2-1} | ${vsplit2-2}
+alias vfull move screenOriginX;windowTopLeftY screenSizeX;windowSizeY
+alias hfull move windowTopLeftX;screenOriginY windowSizeX;screenSizeY
 
-alias hsplit2-1 move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
-alias hsplit2-2 move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX;screenSizeY/2
-bind f2:alt chain ${hsplit2-1} | ${hsplit2-2}
+alias vsplit2-1 move screenOriginX;windowTopLeftY screenSizeX/2;windowSizeY
+alias vsplit2-2 move screenOriginX+screenSizeX/2;windowTopLeftY screenSizeX/2;windowSizeY
+bind f1:alt chain ${vsplit2-1} | ${vsplit2-2} | ${vfull}
 
-alias vsplit3-1 move screenOriginX;screenOriginY screenSizeX/3;screenSizeY
-alias vsplit3-2 move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY
-alias vsplit3-3 move screenOriginX+2*screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY
-alias vsplit3-12 move screenOriginX;screenOriginY 2*screenSizeX/3;screenSizeY
-alias vsplit3-23 move screenOriginX+screenSizeX/3;screenOriginY 2*screenSizeX/3;screenSizeY
-bind f3:alt chain ${vsplit3-1} | ${vsplit3-2} | ${vsplit3-3} | ${vsplit3-12} | ${vsplit3-23}
+alias hsplit2-1 move windowTopLeftX;screenOriginY windowSizeX;screenSizeY/2
+alias hsplit2-2 move windowTopLeftX;screenOriginY+screenSizeY/2 windowSizeX;screenSizeY/2
+bind f2:alt chain ${hsplit2-1} | ${hsplit2-2} | ${hfull}
+
+# resolution may not be a multiple of 3, so some arithmetics is involved.
+alias vsplit3-1 move screenOriginX;windowTopLeftY screenSizeX/3;windowSizeY
+alias vsplit3-2 move screenOriginX+screenSizeX/3;windowTopLeftY screenSizeX/3;windowSizeY
+alias vsplit3-3 move screenOriginX+2*screenSizeX/3;windowTopLeftY screenSizeX-2*screenSizeX/3;windowSizeY
+alias vsplit3-12 move screenOriginX;windowTopLeftY 2*screenSizeX/3;windowSizeY
+alias vsplit3-23 move screenOriginX+screenSizeX/3;windowTopLeftY screenSizeX-screenSizeX/3;windowSizeY
+bind f3:alt chain ${vsplit3-1} | ${vsplit3-2} | ${vsplit3-3} | ${vsplit3-12} | ${vsplit3-23} | ${vfull}
 
 alias esplit4-1 move screenOriginX;screenOriginY screenSizeX/2;screenSizeY/2
 alias esplit4-2 move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY/2
