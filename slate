@@ -45,6 +45,23 @@ bind up:cmd;alt;ctrl       focus up
 bind down:cmd;alt;ctrl     focus down
 bind space:cmd;alt;ctrl    focus behind
 
+# Moving window borders
+alias incX screenSizeX/12
+alias incY screenSizeY/12
+
+bind h:cmd;alt       move windowTopLeftX-${incX};windowTopLeftY windowSizeX+${incX};windowSizeY
+bind h:cmd;alt;ctrl  move windowTopLeftX+${incX};windowTopLeftY windowSizeX-${incX};windowSizeY
+
+bind j:cmd;alt       move windowTopLeftX;windowTopLeftY windowSizeX;windowSizeY+${incY}
+bind j:cmd;alt;ctrl  move windowTopLeftX;windowTopLeftY windowSizeX;windowSizeY-${incY}
+
+bind k:cmd;alt       move windowTopLeftX;windowTopLeftY-${incY} windowSizeX;windowSizeY+${incY}
+bind k:cmd;alt;ctrl  move windowTopLeftX;windowTopLeftY+${incY} windowSizeX;windowSizeY-${incY}
+
+bind l:cmd;alt       move windowTopLeftX;windowTopLeftY windowSizeX+${incX};windowSizeY
+bind l:cmd;alt;ctrl  move windowTopLeftX;windowTopLeftY windowSizeX-${incX};windowSizeY
+
+
 # Window Hints
 bind esc:cmd hint
 
