@@ -1,0 +1,15 @@
+{
+	"auto_upgrade_last_run": 1349308778,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Git",
+		"Markdown Preview",
+		"Package Control",
+		"RSpec (snippets and syntax)",
+		"Sass",
+		"SchemeCycler",
+		"SublimeLinter",
+		"Theme - Soda"
+	]
+}

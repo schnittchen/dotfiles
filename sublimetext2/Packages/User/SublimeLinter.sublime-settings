@@ -1,0 +1,10 @@
+{
+  "sublimelinter_executable_map":
+  {
+    "ruby": "/Users/thomas/.rvm/rubies/ruby-1.9.3-p194/bin/ruby"
+  },
+  "sublimelinter_syntax_map":
+  {
+      "RSpec": "ruby"
+  }
+}
