@@ -6,5 +6,6 @@
   "sublimelinter_syntax_map":
   {
       "RSpec": "ruby"
-  }
+  },
+  "sublimelinter_mark_style": "fill"
 }
