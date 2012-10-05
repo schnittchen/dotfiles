@@ -26,7 +26,7 @@ alias vsplit3-2 move screenOriginX+screenSizeX/3;windowTopLeftY screenSizeX/3;wi
 alias vsplit3-3 move screenOriginX+2*screenSizeX/3;windowTopLeftY screenSizeX-2*screenSizeX/3;windowSizeY
 alias vsplit3-12 move screenOriginX;windowTopLeftY 2*screenSizeX/3;windowSizeY
 alias vsplit3-23 move screenOriginX+screenSizeX/3;windowTopLeftY screenSizeX-screenSizeX/3;windowSizeY
-bind f3:alt chain ${vsplit3-1} | ${vsplit3-2} | ${vsplit3-3} | ${vsplit3-12} | ${vsplit3-23} | ${vfull}
+bind f3:alt chain ${vsplit3-12} | ${vsplit3-3} | ${vsplit3-1} | ${vsplit3-2} | ${vsplit3-23}
 
 alias esplit4-1 move screenOriginX;screenOriginY screenSizeX/2;screenSizeY/2
 alias esplit4-2 move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY/2
