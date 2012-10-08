@@ -7,5 +7,6 @@
   {
       "RSpec": "ruby"
   },
-  "sublimelinter_mark_style": "fill"
+  "sublimelinter_mark_style": "none",
+  "sublimelinter_gutter_marks": true
 }
