@@ -9,5 +9,8 @@
   { "keys": ["super+ctrl+shift+4"], "command": "move_to_group", "args": { "group": 3 } },
 
   { "keys": ["super+ctrl+left"], "command": "fold" },
-  { "keys": ["super+ctrl+right"], "command": "unfold" }
+  { "keys": ["super+ctrl+right"], "command": "unfold" },
+
+  { "keys": ["super+k", "super+enter"], "command": "set_mark" },
+  { "keys": ["ctrl+p"], "command": "expand_selection_to_paragraph" }
 ]
