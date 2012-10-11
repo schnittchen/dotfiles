@@ -42,7 +42,7 @@ bind f4:alt chain ${esplit4-1} | ${esplit4-2} | ${esplit4-3} | ${esplit4-4}
 
 # Throw Bindings
 
-bind esc:ctrl chain throw 0 resize | throw 1 resize #too bad there is no relative screen position
+bind esc:ctrl chain throw previous resize
 
 # Focus Bindings
 bind right:cmd;alt;ctrl    focus right
