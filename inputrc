@@ -1,0 +1,7 @@
+set bell-style visible
+set completion-ignore-case on
+set visible-stats on
+
+# key bindings
+"\x1b\x1b\x5b\x44": backward-word
+"\x1b\x1b\x5b\x43": forward-word
