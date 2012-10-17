@@ -1,0 +1,6 @@
+[
+  {  "caption": "Show console",
+     "command": "show_panel",
+     "args": { "panel": "console" }
+  }
+]
