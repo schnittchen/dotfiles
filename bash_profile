@@ -8,6 +8,8 @@ export CLICOLOR="cons25"
 
 export TERM=xterm-256color
 
+shopt -s histappend
+
 for file in ~/.bash/{prompt,aliases,homebrew,functions}.sh; do
   [ -r "$file" ] && source "$file"
 done
