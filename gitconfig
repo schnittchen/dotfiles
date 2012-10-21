@@ -1,0 +1,27 @@
+[include]
+  path = .git-credentials
+
+[branch]
+  autosetuprebase = always
+
+[push]
+  # 'git push' should only do the current branch, not all
+  default = current
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+
+[diff]
+  mnemonicprefix
+  renames = copies
+
+[alias]
+  graph = log --graph  --all '--pretty=format:"%Cred%h%Creset %ad | [%C(bold blue)%an%Creset] %Cgreen%d%Creset %s"' --date=iso
+
+  st = status
+  df = diff
+
+[color]
+  branch = auto
+  diff = auto
