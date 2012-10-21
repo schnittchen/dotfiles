@@ -5,3 +5,5 @@ set visible-stats on
 # key bindings
 "\x1b\x1b\x5b\x44": backward-word
 "\x1b\x1b\x5b\x43": forward-word
+
+C-w: backward-kill-word #would normally be unix-word-rubout
