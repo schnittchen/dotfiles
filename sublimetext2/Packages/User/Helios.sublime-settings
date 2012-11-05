@@ -1,6 +1,6 @@
 {
   "light_color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
-  "dark_color_scheme": "Packages/Color Scheme - Default/Zenburnesque.tmTheme",
-  "light_theme": "Soda Light.sublime-theme",
-  "dark_theme": "Soda Dark.sublime-theme"
+  "dark_color_scheme": "Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Blue - Eighties.tmTheme",
+  "light_theme": "Phoenix Light.sublime-theme",
+  "dark_theme": "Phoenix Dark.sublime-theme"
 }
