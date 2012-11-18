@@ -23,3 +23,5 @@ export BUNDLER_EDITOR=subl
 export CDPATH=":~/development/:~/development/ruby"
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
+
+export PATH=~/bin:$PATH
