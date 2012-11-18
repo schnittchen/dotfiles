@@ -10,12 +10,10 @@ export TERM=xterm-256color
 
 shopt -s histappend
 
-for file in ~/.bash/{prompt,aliases,homebrew,functions,rbenv}.sh; do
+for file in ~/.bash/{prompt,aliases,homebrew,functions,rvm,rbenv}.sh; do
   [ -r "$file" ] && source "$file"
 done
 unset file
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 export EDITOR=vim
 export BUNDLER_EDITOR=subl
