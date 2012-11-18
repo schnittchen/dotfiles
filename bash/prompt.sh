@@ -1,9 +1,15 @@
+if [ `type -t which_ruby`"" != 'function' ]; then
+  function which_ruby(){
+    return
+  }
+fi
+
 function set_short_prompt(){
   export PRE_PROMPT='\[\033[01;34m\]\W\[\033[00m\]'
 }
 
 function set_long_prompt(){
-  export PRE_PROMPT="\[\033[01;34m\]\$(~/.rvm/bin/rvm-prompt) \[\033[01;32m\]\w\[\033[00;33m\]\$(__git_ps1 \" (%s)\")"
+  export PRE_PROMPT="\[\033[01;34m\]\$(which_ruby) \[\033[01;32m\]\w\[\033[00;33m\]\$(__git_ps1 \" (%s)\")"
 }
 
 function my_prompt_command {
