@@ -17,7 +17,7 @@
   renames = copies
 
 [alias]
-  graph = log --graph  --all '--pretty=format:"%Cred%h%Creset %ad | [%C(bold blue)%an%Creset] %Cgreen%d%Creset %s"' --date=iso
+  graph = log --graph --all '--pretty=format:%Cred%h%Creset %ad | [%C(bold blue)%an%Creset] %Cgreen%d%Creset %s' --date=iso
 
   st = status
   df = diff
