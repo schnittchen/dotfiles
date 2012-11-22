@@ -2,13 +2,13 @@
 	"auto_upgrade_last_run": 1349308778,
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"Git",
 		"Auto Encoding for Ruby",
 		"Helios",
 		"Markdown Preview",
 		"Origami",
 		"Package Control",
+		"Quick File Creator",
 		"RSpec (snippets and syntax)",
 		"Sass",
 		"SchemeCycler",
