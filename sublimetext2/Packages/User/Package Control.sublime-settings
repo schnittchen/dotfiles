@@ -1,5 +1,9 @@
 {
 	"auto_upgrade_last_run": 1349308778,
+	"auto_upgrade_ignore":
+	[
+		"SublimeLinter"
+	],
 	"installed_packages":
 	[
 		"Git",
