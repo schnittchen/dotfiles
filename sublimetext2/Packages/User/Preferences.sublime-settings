@@ -24,5 +24,9 @@
 	"tab_size": 2,
 	"theme": "Phoenix Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"filename_syntax_settings":
+	  [
+	    ["_spec\\.rb", "RSpec"]
+	  ]
 }
