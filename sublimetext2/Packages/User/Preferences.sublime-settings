@@ -5,6 +5,13 @@
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"fade_inactive_panes": false,
+	"filename_syntax_settings":
+	[
+		[
+			"_spec\\.rb",
+			"RSpec"
+		]
+	],
 	"font_size": 12.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -24,9 +31,5 @@
 	"tab_size": 2,
 	"theme": "Phoenix Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": false,
-	"filename_syntax_settings":
-	  [
-	    ["_spec\\.rb", "RSpec"]
-	  ]
+	"word_wrap": false
 }

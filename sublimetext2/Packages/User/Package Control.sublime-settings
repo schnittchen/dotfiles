@@ -6,9 +6,9 @@
 	],
 	"installed_packages":
 	[
-		"Git",
 		"Abacus",
 		"Auto Encoding for Ruby",
+		"Git",
 		"Helios",
 		"Markdown Preview",
 		"Origami",
