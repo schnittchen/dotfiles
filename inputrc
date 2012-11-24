@@ -1,5 +1,4 @@
 set bell-style visible
-set completion-ignore-case on
 set visible-stats on
 
 # key bindings
