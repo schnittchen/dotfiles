@@ -13,7 +13,7 @@ alias ssy screenSizeY
 
 # Pseudolayouts
 alias fullscreen move ${sox};${soy} ${ssx};${ssy}
-bind esc:alt ${fullscreen}
+bind 0:cmd;alt ${fullscreen}
 
 alias vfull move ${sox};windowTopLeftY ${ssx};windowSizeY
 alias hfull move windowTopLeftX;${soy} windowSizeX;${ssy}
