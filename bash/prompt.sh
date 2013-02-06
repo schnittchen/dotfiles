@@ -36,9 +36,10 @@ function my_prompt_command {
 }
 PROMPT_COMMAND=my_prompt_command
 
-if [ "x$TMUX" != 'x' ]
-then
-  set_short_prompt
-else
-  set_long_prompt
-fi
+# if [ "x$TMUX" != 'x' ]
+# then
+#   set_short_prompt
+# else
+#   set_long_prompt
+# fi
+set_long_prompt
