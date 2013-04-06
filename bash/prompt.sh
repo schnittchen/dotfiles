@@ -31,7 +31,7 @@ function my_prompt_command {
   then
      PS1="${PRE_PROMPT} ${BOLD}${GREEN}✓${OFF} "
   else
-     PS1="${PRE_PROMPT} ${BOLD}${RED}[${EXITSTATUS}] ✘${OFF} "
+     PS1="${PRE_PROMPT} ${BOLD}${RED}✘${OFF} "
   fi
 }
 PROMPT_COMMAND=my_prompt_command
