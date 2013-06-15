@@ -1,18 +1,24 @@
+# --known-types
 --sort-files
 --group
 
---type-set=haml=.haml
---type-set=sass=.sass
---type-set=bin=.pdf
---type-add=js=.coffee
---type-set=compcoffee=.coffee.js
+--type-set=haml:ext:haml
+--type-set=sass:ext:sass
 
---ignore-dirs=compiled
---ignore-dirs=cache
-
+--type-set=bin:ext:pdf
+--type-add=bin:ext:tgz
+# redis backup?
+--type-add=bin:ext:rdb
 --nobin
---nocompcoffee
 
---ignore-dir=tmp/capybara
+--type-add=js:ext:coffee
+
+--ignore-dir=tmp
+--ignore-dir=log
 --ignore-dir=public/assets
 --ignore-dir=vendor
+--ignore-dir=public/system
+
+--ignore-file=ext:gitkeep
+# ignore compiled coffeescript files
+--ignore-file=match:\.coffee\.js$
