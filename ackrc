@@ -4,6 +4,7 @@
 
 --type-set=haml:ext:haml
 --type-set=sass:ext:sass
+--type-set=jade:ext:jade
 
 --type-set=bin:ext:pdf
 --type-add=bin:ext:tgz
