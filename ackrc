@@ -4,10 +4,12 @@
 
 --type-set=haml:ext:haml
 --type-set=sass:ext:sass
+--type-set=scss:ext:scss
 --type-set=jade:ext:jade
 
 --type-set=bin:ext:pdf
 --type-add=bin:ext:tgz
+--type-add=bin:ext:scssc
 # redis backup?
 --type-add=bin:ext:rdb
 --nobin
