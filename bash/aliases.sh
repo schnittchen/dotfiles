@@ -10,5 +10,8 @@ alias rserver='bundle exec rails server -p $((0x`pwd | md5 | cut -b 1-4` % (6553
 alias amend='git commit --amend -C HEAD'
 alias add='git add -p'
 alias co='git checkout -p'
+alias rs='git reset -p'
+alias st='git st'
+alias cached='git diff --cached'
 
 alias attach-to-tmux-session='tmux new-session -t'
