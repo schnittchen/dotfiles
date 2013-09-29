@@ -69,7 +69,7 @@ bind l:cmd;alt;ctrl  move windowTopLeftX;windowTopLeftY windowSizeX-${incX};wind
 
 
 # Window Hints
-bind esc:cmd hint
+#bind esc:cmd hint
 
 # Switch currently doesn't work well so I'm commenting it out until I fix it.
 #bind tab:cmd switch
