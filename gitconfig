@@ -21,7 +21,11 @@
 
   st = status -sb
   df = diff
+  co = checkout
 
 [color]
   branch = auto
   diff = auto
+
+[merge]
+  conflictstyle = diff3
