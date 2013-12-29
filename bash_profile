@@ -27,8 +27,6 @@ unset file
 
 export EDITOR=vim
 export BUNDLER_EDITOR=subl
-#we can make this clever one day...
-export CDPATH=":~/development/:~/development/ruby"
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
