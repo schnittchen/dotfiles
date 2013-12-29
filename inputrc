@@ -2,7 +2,13 @@ set bell-style visible
 set visible-stats on
 
 # key bindings
+
+## for macos
 "\x1b\x1b\x5b\x44": backward-word
 "\x1b\x1b\x5b\x43": forward-word
+
+## for linux
+"\e[1;5D": backward-word
+"\e[1;5C": forward-word
 
 C-w: backward-kill-word #would normally be unix-word-rubout
