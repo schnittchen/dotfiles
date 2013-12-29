@@ -1,3 +1,7 @@
+if [ `type -t __git_ps1`"" != 'function' ]; then
+  . /usr/share/git-core/contrib/completion/git-prompt.sh
+fi
+
 if [ `type -t which_ruby`"" != 'function' ]; then
   function which_ruby(){
     return
