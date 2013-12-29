@@ -20,7 +20,7 @@ export TERM=xterm-256color
 
 shopt -s histappend
 
-for file in ~/.bash/{homebrew,prompt,aliases,functions,rbenv,npm}.sh; do
+for file in ~/.bash/{homebrew,prompt,aliases,functions,rbenv,chruby,npm}.sh; do
   [ -r "$file" ] && source "$file"
 done
 unset file
