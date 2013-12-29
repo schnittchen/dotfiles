@@ -1,3 +1,5 @@
+[ -e $HOME/.rbenv/bin ] || return
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
