@@ -1,4 +1,0 @@
-{
-    "encoding_declaration_regex": "^\\s*#\\s*(en)?coding\\s*:\\s*utf-8\\s*$",
-    "remove_encoding_declaration": false
-}

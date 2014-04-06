@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-require 'debugger'; debugger
-]]></content>
-  <tabTrigger>deb</tabTrigger>
-  <scope>source.ruby</scope>
-</snippet>
