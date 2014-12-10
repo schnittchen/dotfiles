@@ -30,3 +30,5 @@ export BUNDLER_EDITOR=subl
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
+# such workaround...
+[[ -s /etc/infinality-settings.sh ]] && source /etc/infinality-settings.sh
