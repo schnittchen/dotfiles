@@ -16,6 +16,7 @@ export LANG=en_US.UTF-8
 # for colorful ls output
 export CLICOLOR="cons25"
 
+#I do not understand why terminal emulators which support this don't set this properly.
 export TERM=xterm-256color
 
 shopt -s histappend
